@@ -75,7 +75,7 @@ body{
 /* begin content */
 #content{
     position: relative;
-    top:-72px;
+    margin-top: -72px;
     background-color: #f1f1f1;
     width: 100%;
 }
@@ -314,7 +314,7 @@ body{
 /* other model */
 #other_models{
     margin-top: 65px;
-    padding-bottom: 135px;
+    padding-bottom: 65px;
 }
 #wrap_link{
     width: 100%;
@@ -338,42 +338,108 @@ body{
     transition: 0.35s ease-in-out;
 }
 #other_models h1:hover{
-    color:rgb(2, 1, 1)
+    color:rgb(110, 84, 84);
+}
+/* email */
+#email{
+    width: 100%;
+    display: flex;
+    position: relative;
+    background-color: #f1f1f1;
+    padding-bottom: 10px;
+}
+#input_email{
+    height:211px;
+    width:100%;
+    margin: 0 20px;
+    padding:0 20px;
+    border-radius: 5px;
+    color:#000;
+    font-family: fantasy;
+    font-size:75px;
+    background-color: #f1f1f1;
+}
+#email_p1{
+    position: absolute;
+    top:20px;
+    left:40px;
+}
+#email_p2{
+    position: absolute;
+    bottom: 20px;
+    left:40px;
+}
+#policy{
+    transition: .15s ease-in-out;
+}
+#policy:hover{
+    color: rgb(165, 165, 165);
+    cursor: pointer;
 }
 /* footer */
 #footer{
     position: relative;
-    top:-75px;
+    width: 100%;
+    display: flex;
+    color: #fff;
+    background-color: #f1f1f1;
+}
+#wrap_footer{
+    width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: #000;
+}
+#wrap_line12{
+    font-family: fantasy;
+    padding-top: 10px;
+}
+#wrap_line12 a{
+    margin-left: 20px;
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 25px;    
+    letter-spacing: 1.5px;
+    color:#fff;
+    transition: .35s ease-in-out;
+}
+#wrap_line12 a:hover{
+    color:rgb(165, 165, 165);
+}
+#footer_line1,
+#footer_line2{
     display: flex;
     justify-content: center;
-    background-color: #f1f1f1;
+    line-height: 58px;
+    margin-left: 40px;
+    margin-right: 40px;
+    border-bottom: 0.75px solid rgb(165, 165, 165);
+}
+#footer_line3{
+    font-size: 13.5px;
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
     flex-direction: column;
+    align-items: center;
+    margin-bottom: 55px;
 }
-#footer_contact{
-    height:211px;
-    width: 100%;
-    position: relative;
-    padding: 0 20px;
-    font-size: 65px;
-    font-family: fantasy;
-    color:#000;
-    border-radius: 5px;
-    margin: 0 20px;
+#footer_label {
+    background-image: url(./Image/footer_logo.svg);
+    width: 260px;
+    height: 55px;
+    background-size: cover;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
-#footer_p1{
-    position: absolute;
-    top: 20px;
-    left: 40px;
+#mvAgusta{
+    margin-top: 10px;
 }
-#footer_p2{
-    position: absolute;
-    bottom:20px;
-    left:40px;
+#footer_line3 p {
+    line-height: 22px;
+    letter-spacing: 0.8px;
 }
-#footer_underline {
-    transition: .15s ease-in-out;
-}
-#footer_underline:hover{
-    color:rgb(154, 154, 154);
-    cursor: pointer;
+#copyright{
+    font-size: 11px;
+    margin-top: 25px;
 }
