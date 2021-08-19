@@ -52,7 +52,9 @@ body{
 #banner{
     height:854px;
     background-Image:url('./Image/header-banner-pcSize.png'), radial-gradient(82.29% 82.29% at 50% 98.05%,#960014 0%,#AE0000 100%);
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: 100%;
     color:#fff;
     position: relative;
     top: -72px;
