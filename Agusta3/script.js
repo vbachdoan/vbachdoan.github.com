@@ -1,6 +1,6 @@
 setInterval(function(){
     if(window.innerWidth>=990){
-        document.getElementById('banner_image').setAttribute('src','./Image/header-banner-pcSize.png')
+        document.getElementById('banner_image').setAttribute('src', './Image/header-banner-pcSize.webp')
     }
     else if(window.innerWidth<990 && window.innerWidth>=575){
         document.getElementById('banner_image').setAttribute('src','./Image/header-banner-tabletSize.webp')
