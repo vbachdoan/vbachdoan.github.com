@@ -32,6 +32,6 @@
     #content_no p,
     #first_statement~label,
     #second_statement~label{
-        font-size: calc(13px + 2*(100vw - 320px)/(725 - 320));
+        font-size: calc(14px + 2*(100vw - 320px)/(725 - 320));
     }
 }
