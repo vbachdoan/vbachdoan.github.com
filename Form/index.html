@@ -5,44 +5,169 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Log in</title>
+    
+    <link href="./node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./responsive.css">
 
-    <style>
-        .form-select {
-            border: 0px;
-            border-bottom: 1px solid #000;
-            border-radius: 0;
-        }
-        .form-select:focus {
-            border: 0px;
-            border-bottom: 1px solid #000;
-            outline: 0;
-            box-shadow: 0px 0px;
-        }     
-    </style>
 </head>
 <body>
     <div id="wrap_form">
         <div id="logo">
-            <!-- <img src="./image/logo.svg" alt="MVAgusta logo" loading='lazy'> -->
+            <img src="./image/logo.svg" alt="MVAgusta logo" loading='lazy'>
         </div>
         <h1 id="form_name">Contact by dealer</h1>
 
-        <select id="form_select" class="form-select" aria-label=".form-select-lg ">
-            <option class="uppercase" selected disabled>CONTACT A DEALERSHIP FOR:</option>
-            <option value="1">Information about a model</option>
-            <option value="2">Information about accessories</option>
-            <option value="3">Information about apparel</option>
-            <option value="4">Request a test ride</option>
-            <option value="5">Request a quote</option>
-            <option value="6">Information about financing</option>
-            <option value="7">Other</option>
-        </select>
+        <div class="form_display" id="form1">
+            <h5 class="display_word" id="word_form1">CONTACT A DEALER FOR:</h5>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+            </svg>
+            <div class="wrap_select" id="list_form1">
+                <ul id="ul_form1">
+                    <li class="un_select">Contact a dealer for:</li>
+                    <li>Information about a model</li>
+                    <li>Inforation about accessories</li>
+                    <li>Information about apparel</li>
+                    <li>Request a quote</li>
+                    <li>Information about financing</li>
+                    <li>Other</li>
+                </ul>
+            </div>
+        </div>
+        <div id="wrap_main_field">
+            <p id="note">*Require field</p>
+            <p id="begin_form">Select the model you are interested in</p>
+            <div id="wrap_two_first">
+                <div class="form_display" id="form2">
+                    <h5 class="display_word" id="word_form2">FAMILY*</h5>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                    </svg>
+                    <div class="wrap_select" id="list_form2">
+                        <ul id="ul_form2">
+                            <li class="un_select">Family*</li>
+                            <li>XDiavel</li>
+                            <li>Supersport</li>
+                            <li>Streetfighter</li>
+                            <li>Panigale</li>
+                            <li>Multistrada</li>
+                            <li>Monster</li>
+                            <li>Hypermotard</li>
+                            <li>Diavel</li>
+                            <li>Scrambler</li>
+                        </ul>
+                    </div>
+                </div>
 
+                <div class="form_display" id="form3">
+                    <h5 class="display_word" id="word_form3">MODEL*</h5>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                    </svg>
+                    <div class="wrap_select" id="list_form3">
+                        <ul id="ul_form3">
+                            <li class="un_select">Model*</li>
+                            <li></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="form-floating" id="wrap_email">
+                    <input type="email" class="form-control" id="toWrite_name" placeholder="name@example.com">
+                    <label for="toWrite_name">NAME*</label>
+                </div>
+
+                <div class="form-floating" >
+                    <input type="email" class="form-control" id="last_name" placeholder="name@example.com">
+                    <label for="last_name">LAST NAME*</label>
+                </div>
+
+            </div>
+
+            <div class="form_display" id="form5">
+                <h5 class="display_word" id="word_form5">COUNTRY*</h5>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                </svg>
+                <div class="wrap_select" id="list_form5">
+                    <ul id="ul_form5">
+                        <li class="un_select">Country*</li>
+                        <li>United Stated</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div id="wrap_contact">
+                <div id="wrap_form_contact">
+                    <div class="form_display" id="country_code">
+                        <h5 class="display_word" id="word_form6">+1</h5>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                        </svg>
+                        <div class="wrap_select" id="list_form6">
+                            <ul id="ul_form6">
+                                <li>+1</li>
+                                <li>+84</li>
+                                <li>+20</li>
+                                <li>+27</li>
+                                <li>+30</li>
+                                <li>+31</li>
+                                <li>+32</li>
+                                <li>+33</li>
+                                <li>+34</li>
+                            </ul>
+                        </div>
+                    </div>
+    
+                    <div class="form-floating">
+                        <input type="email" class="form-control" id="cellphone" placeholder="name@example.com">
+                        <label for="cellphone">CELL PHONE</label>
+                    </div>
+
+                </div>
+
+                <div class="form-floating">
+                    <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                    <label for="email">EMAIL</label>
+                </div>
+            </div>
+
+            <div class="form-floating" id="search_dealer">
+                <input type="email" class="form-control" id="location" placeholder="name@example.com">
+                <label for="location">INSERT THE NAME OF THE LOCATION OR THE DEALER YOU ARE LOOKING FOR*</label>
+            </div>
+        </div>
+
+
+        <div id="content_after_checkbox">
+            <div id="content_yes">
+                <div id="wrap_main_yes"></div>
+            </div>
+            <div id="content_no">
+                <h5 id="no_title">Consent for the processing of personal data</h5>
+                <p>Before proceeding, please read our <u>privacy policy</u>.<br>I have read and understood the privacy notice and I hereby consent to the processing of my personal data by Ducati Motor Holding S.p.A.:
+                </p>
+                <div class="wrap_statement">
+                    <input type="checkbox" id="first_statement">
+                    <label for="first_statement">for marketing activities via email (newsletters), telephone, text and multimedia messages, chats, banners on our websites and apps, instant messaging, social networks, and conventional mail</label>
+                </div>
+                <div class="wrap_statement">
+                    <input type="checkbox" id="second_statement">
+                    <label for="second_statement">
+                        to understand your preferences through automated individual decision-making activities and better serve you
+                    </label>
+                </div>
+            </div>
+        </div>
+
+        <div id="final_button">
+            <div id="button"><p>SEND</p></div>
+        </div>
     </div>
 
     <script src="./script.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" ></script>
 </body>
 </html>

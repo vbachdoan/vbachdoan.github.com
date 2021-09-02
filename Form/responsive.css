@@ -1,0 +1,37 @@
+@media screen and (max-width : 725px) {
+    #wrap_two_first {
+        grid-template-columns: auto;
+        row-gap: 30px;
+    }
+    #wrap_email{
+        margin-bottom: 0px;
+    }
+    #wrap_contact {
+        grid-template-columns: auto;
+    }
+    #wrap_form_contact {
+        grid-template-columns: 50px auto;
+    }
+    #location ~label,
+    #word_form1,
+    #word_form2,
+    #word_form3,
+    #toWrite_name~label,
+    #last_name~label,
+    #word_form5,
+    #word_form6,
+    #cellphone~label,
+    #email~label
+    {
+        font-size: calc(12px + 2*(100vw - 320px)/(725 - 320));
+        text-align: left;
+    }
+    #no_title{
+        font-size: calc(17px + 2*(100vw - 320px)/(725 - 320));
+    }
+    #content_no p,
+    #first_statement~label,
+    #second_statement~label{
+        font-size: calc(13px + 2*(100vw - 320px)/(725 - 320));
+    }
+}
