@@ -1,4 +1,8 @@
+// with each select form is one check variable, it's same function
 
+/**
+ * Input 1
+ */
 let check = 1
 document.getElementById('word_form1').addEventListener('click', function () {
     if (check == 1) {
@@ -40,7 +44,9 @@ document.getElementById('ul_form1').children[6].addEventListener('click', functi
 })
 
 
-// input 2
+/**
+ * Input2
+ */
 
 let check2 = 1
 document.getElementById('word_form2').addEventListener('click', function () {
@@ -94,7 +100,11 @@ document.getElementById('ul_form2').children[9].addEventListener('click', functi
     document.getElementById('word_form2').innerText = `${document.getElementById('ul_form2').children[6].innerText}`
 })
 
-// input 3
+
+/**
+ * Input3
+ */
+
 let check3 = 1
 document.getElementById('word_form3').addEventListener('click', function () {
     if (check3 == 1) {
@@ -121,7 +131,10 @@ document.getElementById('ul_form3').children[1].addEventListener('click', functi
 })
 
 
-// input 5
+/**
+ * Input 5
+ */
+
 let check5 = 1
 document.getElementById('word_form5').addEventListener('click', function () {
     if (check5 == 1) {
@@ -148,7 +161,9 @@ document.getElementById('ul_form5').children[1].addEventListener('click', functi
 })
 
 
-//input 6
+/**
+ * Input 6
+ */
 
 let check6 = 1
 document.getElementById('word_form6').addEventListener('click', function () {
@@ -197,6 +212,9 @@ document.getElementById('ul_form6').children[8].addEventListener('click', functi
 })
 
 
+/**
+ * Make the input form that user can select disappear when user focus on the input with type='text'
+ */
 
 document.getElementById('toWrite_name').addEventListener('click', function () {
     document.getElementById('list_form1').style.display = 'none'

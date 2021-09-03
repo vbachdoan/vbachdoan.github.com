@@ -13,11 +13,17 @@
 </head>
 <body>
     <div id="wrap_form">
+
+        <!-- logo of form -->
         <div id="logo">
             <img src="./image/logo.svg" alt="MVAgusta logo" loading='lazy'>
         </div>
+
+        <!-- name of form -->
         <h1 id="form_name">Contact by dealer</h1>
 
+        <!-- field for input -->
+        <!-- first input -->
         <div class="form_display" id="form1">
             <h5 class="display_word" id="word_form1">CONTACT A DEALER FOR:</h5>
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
@@ -35,10 +41,16 @@
                 </ul>
             </div>
         </div>
+        <!-- other fields -->
         <div id="wrap_main_field">
+            <!-- note and title -->
             <p id="note">*Require field</p>
             <p id="begin_form">Select the model you are interested in</p>
+
+            <!-- function of this wrap is for responsive at smaller device -->
             <div id="wrap_two_first">
+
+                <!-- family -->
                 <div class="form_display" id="form2">
                     <h5 class="display_word" id="word_form2">FAMILY*</h5>
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
@@ -60,6 +72,7 @@
                     </div>
                 </div>
 
+                <!-- displaying the models depend on family field -->
                 <div class="form_display" id="form3">
                     <h5 class="display_word" id="word_form3">MODEL*</h5>
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
@@ -73,11 +86,13 @@
                     </div>
                 </div>
 
+                <!-- name of user -->
                 <div class="form-floating" id="wrap_email">
                     <input type="email" class="form-control" id="toWrite_name" placeholder="name@example.com">
                     <label for="toWrite_name">NAME*</label>
                 </div>
 
+                <!-- last name of user -->
                 <div class="form-floating" >
                     <input type="email" class="form-control" id="last_name" placeholder="name@example.com">
                     <label for="last_name">LAST NAME*</label>
@@ -85,6 +100,7 @@
 
             </div>
 
+            <!-- country -->
             <div class="form_display" id="form5">
                 <h5 class="display_word" id="word_form5">COUNTRY*</h5>
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
@@ -98,8 +114,13 @@
                 </div>
             </div>
 
+            <!-- country phone number -->
             <div id="wrap_contact">
+
+                <!-- funciton of this wrap is to responsive at smaller device -->
                 <div id="wrap_form_contact">
+
+                    <!-- country's phone code -->
                     <div class="form_display" id="country_code">
                         <h5 class="display_word" id="word_form6">+1</h5>
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
@@ -119,7 +140,8 @@
                             </ul>
                         </div>
                     </div>
-    
+                    
+                    <!-- phone number -->
                     <div class="form-floating">
                         <input type="email" class="form-control" id="cellphone" placeholder="name@example.com">
                         <label for="cellphone">CELL PHONE</label>
@@ -127,23 +149,27 @@
 
                 </div>
 
+                <!-- email of user -->
                 <div class="form-floating">
                     <input type="email" class="form-control" id="email" placeholder="name@example.com">
                     <label for="email">EMAIL</label>
                 </div>
             </div>
 
+            <!-- location or dealer -->
             <div class="form-floating" id="search_dealer">
                 <input type="email" class="form-control" id="location" placeholder="name@example.com">
                 <label for="location">INSERT THE NAME OF THE LOCATION OR THE DEALER YOU ARE LOOKING FOR*</label>
             </div>
+
         </div>
 
-
         <div id="content_after_checkbox">
+
             <div id="content_yes">
                 <div id="wrap_main_yes"></div>
             </div>
+            
             <div id="content_no">
                 <h5 id="no_title">Consent for the processing of personal data</h5>
                 <p>Before proceeding, please read our <u>privacy policy</u>.<br>I have read and understood the privacy notice and I hereby consent to the processing of my personal data by Ducati Motor Holding S.p.A.:
@@ -159,15 +185,17 @@
                     </label>
                 </div>
             </div>
+
         </div>
 
+        <!-- send button -->
         <div id="final_button">
             <div id="button"><p>SEND</p></div>
         </div>
+
     </div>
 
-    <script src="./script.js"></script>
-    
+    <script src="./script.js"></script>  
     <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" ></script>
 </body>
 </html>
