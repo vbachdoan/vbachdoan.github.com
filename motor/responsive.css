@@ -1,0 +1,819 @@
+/* because if use px value, it's have some mistae while zoom or change attribute, we'll use em value*/
+
+
+/* 1em=16px */
+
+@media all and (max-width: 30em) {
+    #left_nav,
+    #right_nav {
+        display: none;
+    }
+    #header {
+        display: flex;
+        justify-content: space-between;
+        background-color: rgb(132, 172, 247);
+        height: 45px;
+        line-height: 54px;
+    }
+    #about {
+        margin: 49px 10px;
+        height: auto;
+        font-size: 16px;
+        text-align: center;
+        line-height: 28px;
+    }
+    #logo {
+        background: rgb(71, 84, 204);
+        display: flex;
+        position: relative;
+        height: 0;
+        justify-content: center;
+        top: -62px;
+    }
+    #logo img {
+        width: 100px;
+        height: 100px;
+    }
+    #banner #title h1 {
+        font-size: 38px;
+        line-height: 20px;
+        position: relative;
+        top: 30px;
+    }
+    #the_beginning {
+        display: flex;
+        margin-top: 100px;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+    #beginning_para {
+        padding-top: 35px;
+        /* margin-right: 5%; */
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px 20px;
+        margin-right: 0;
+    }
+    #beginning_para h1 {
+        font-size: 35px;
+        letter-spacing: -3px;
+        margin-bottom: 31px;
+        text-align: center;
+        /* position: relative; */
+        /* left: 50%; */
+        /* transform: translateX(-50%); */
+    }
+    #beginning_image {
+        overflow: hidden;
+        border-radius: 10px;
+        background-color: #000;
+        /* height: 100%; */
+        width: auto;
+        /* max-width: 50vw; */
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    #beginning_para p {
+        font-size: 12px;
+        line-height: 19px;
+        text-align: center;
+        /* margin-right: 40px; */
+        margin-right: 0;
+    }
+    #slide1 #wrap_session {
+        display: flex;
+        justify-content: space-around;
+    }
+    #slide1 #wrap_session button {
+        width: 80px;
+        height: 80px;
+    }
+    #slide2 #slide2_conclution {
+        margin: 60px 40px;
+        text-align: center;
+    }
+    #slide2 #conclution {
+        height: auto;
+        margin-bottom: 20px;
+        font-size: 16px;
+        line-height: 19px;
+    }
+    #team_title {
+        font-weight: 900;
+        letter-spacing: -3px;
+        font-size: 33px;
+    }
+    #team_title {
+        height: auto;
+        margin-bottom: 5px;
+        text-align: center;
+        font-size: 23px;
+    }
+    #slide2 #quote {
+        height: 25px;
+        font-size: 12px;
+    }
+    #team {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .team_box {
+        width: auto;
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-bottom: 30px;
+    }
+    .team_box img {
+        width: 50vw;
+        background: #fff;
+        border-radius: 5px;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .wrap_input {
+        position: relative;
+        padding: 0px 0;
+    }
+    #contact .input_contact {
+        height: 43px;
+        width: 100%;
+        border-radius: 5px;
+        border: 1px solid #000;
+    }
+    .check_button {
+        display: flex;
+        height: 59px;
+    }
+    .check_button input {
+        height: 17px;
+        width: 25px;
+        margin: 19px 0;
+    }
+    .check_button p {
+        line-height: 25px;
+        height: 25px;
+        position: relative;
+        right: -20px;
+        top: 17px;
+        font-size: 17px;
+    }
+    .check_button {
+        display: flex;
+        height: auto;
+    }
+    #contact .contact_button {
+        width: 70%;
+        height: 52px;
+        color: #fff;
+        background-color: #000;
+        font-weight: 900;
+        font-size: 28px;
+        border-radius: 5px;
+        line-height: 0px;
+        margin-top: 29px;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    #email h1 {
+        margin: 0 25px 15px 25px;
+        font-size: 40px;
+    }
+    #email p {
+        margin-left: 25px;
+        font-size: 16px;
+    }
+    #footer #social_media {
+        display: flex;
+        justify-content: center;
+        height: 60px;
+        line-height: 60px;
+        border-bottom: 1px solid rgb(155, 153, 153);
+    }
+    #footer a {
+        text-decoration: none;
+        color: #fff;
+        padding-right: 10px;
+        padding-left: 10px;
+        font-size: 14px;
+        font-weight: 600;
+        letter-spacing: 0px;
+    }
+    #footer #wrap_footer {
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    #footer #sub_footer {
+        display: flex;
+        justify-content: center;
+        height: 60px;
+        line-height: 60px;
+        border-bottom: 1px solid rgb(155, 153, 153);
+    }
+    #end_footer #content1 {
+        margin-top: 18px;
+        height: 122px;
+        font-size: 10px;
+    }
+    #end_footer #content2 {
+        position: absolute;
+        left: 0;
+        bottom: 9px;
+        font-size: 9px;
+    }
+    #end_footer #content1 {
+        margin-top: 18px;
+        height: 90px;
+        font-size: 10px;
+    }
+    .team_box .team_name {
+        text-align: center;
+        height: auto;
+        /* height: 40px; */
+        margin-bottom: 20px;
+        margin-top: 40px;
+        font-size: 22px;
+        font-weight: 900;
+        letter-spacing: -3px;
+    }
+    .team_box .about_team {
+        text-align: justify;
+        font-size: 13px;
+    }
+    #contact {
+        margin-top: 60px;
+        width: 80vw;
+        background-color: #fff;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        padding: 30px 337px;
+        line-height: 73px;
+    }
+    #contact .input_contact {
+        height: 36px;
+        width: 100%;
+        border-radius: 5px;
+        border: 1px solid #000;
+    }
+    #contact .contact_button {
+        width: 70%;
+        height: 42px;
+        color: #fff;
+        background-color: #000;
+        font-weight: 900;
+        font-size: 23px;
+        border-radius: 5px;
+        line-height: 0px;
+        margin-top: 29px;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .check_button p {
+        line-height: 27px;
+        height: 25px;
+        position: relative;
+        right: -5px;
+        top: 17px;
+        font-size: 16px;
+    }
+    #email {
+        height: auto;
+        margin-top: 29px;
+        margin-right: 10px;
+        margin-left: 10px;
+        border-radius: 5px;
+        border: 1px solid #000;
+    }
+    #email p {
+        font-size: 17px;
+    }
+    #email h1 {
+        font-size: 20px;
+    }
+    /* SIDEBAR*/
+    #header #nav_icon {
+        padding: 0;
+        display: inline-block;
+        height: 45px;
+        width: 45px;
+        font-size: 24px;
+        line-height: 50px;
+        height: 50px;
+        width: 27px;
+        color: #fff;
+        transform: rotate(180deg);
+        /*
+        #header #nav_icon {
+        display: none;
+        font-size: 24px;
+        line-height: 50px;
+        height: 50px;
+        width: 27px;
+        color: #fff;
+        transform: rotate(180deg);
+    }
+        */
+    }
+    #overlay {
+        display: none;
+        width: 50%;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+    #sidebar {
+        width: 50vw;
+        height: 100vh;
+        background-color: #fff;
+    }
+    #wrap_sidebar {
+        z-index: 2;
+        display: flex;
+        width: 100vw;
+        height: 100vh;
+    }
+    #wrap_sidebar #sidebar {
+        transform: translateX(200%);
+        transition: transform 1s linear;
+    }
+    #nav_checkbox:checked~#icon>#nav_icon {
+        display: none;
+    }
+    #nav_checkbox:checked~#wrap_sidebar>#overlay {
+        display: block;
+    }
+    #nav_checkbox:checked~#wrap_sidebar>#sidebar {
+        transform: translateX(0px);
+        transition: transform 1s linear;
+    }
+    #nav_checkbox:checked~#wrap_sidebar {
+        animation: opacity 0.8s linear;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+    @keyframes opacity {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+    /*ICON LOG OUT*/
+    #overlay {
+        position: relative;
+    }
+    #overlay .ti-control-forward {
+        position: absolute;
+        top: 50%;
+        right: 30px;
+        display: none;
+        font-size: 40px;
+    }
+    #nav_checkbox:checked~#wrap_sidebar>#overlay>.ti-control-forward {
+        display: block;
+        color: #fff;
+        animation: 1s log_out 2s linear infinite;
+    }
+    #nav_checkbox:checked~#wrap_sidebar {
+        position: fixed;
+    }
+    @keyframes log_out {
+        0% {
+            transform: translateX(-15px);
+        }
+    }
+    /* SIDEBAR_ANIMATION */
+    #sidebar {
+        /* background-size: 400% 400%; */
+        background-color: rgb(52, 111, 219);
+        /* animation: sidebar 7s linear infinite; */
+    }
+    #sidebar #facebook:hover {
+        transform: scale(1.5);
+        transition-duration: .5s;
+    }
+    #contact {
+        text-align: center;
+    }
+}
+
+
+/* Dành cho điện thoại */
+
+@media all and (max-width:45em) and (min-width:30.0625em) {
+    #left_nav,
+    #right_nav {
+        display: none;
+    }
+    #header {
+        display: flex;
+        justify-content: space-between;
+        background-color: rgb(132, 172, 247);
+        height: 45px;
+        line-height: 54px;
+    }
+    #about {
+        margin: 25px 10px;
+        height: auto;
+        font-size: 14px;
+        text-align: center;
+        line-height: 19px;
+    }
+    #logo {
+        background: rgb(71, 84, 204);
+        display: flex;
+        position: relative;
+        height: 0;
+        justify-content: center;
+        top: -62px;
+    }
+    #logo img {
+        width: 100px;
+        height: 100px;
+    }
+    #banner #title h1 {
+        font-size: 38px;
+        line-height: 20px;
+        position: relative;
+        top: 30px;
+    }
+    #the_beginning {
+        display: flex;
+        margin-top: 100px;
+        flex-direction: column;
+        margin-top: 60px;
+    }
+    #beginning_para {
+        padding-top: 35px;
+        /* margin-right: 5%; */
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px 20px;
+        margin-right: 0;
+    }
+    #beginning_para h1 {
+        font-size: 53px;
+        letter-spacing: -3px;
+        margin-bottom: 35px;
+        text-align: center;
+        /* position: relative; */
+        /* left: 50%; */
+        /* transform: translateX(-50%); */
+    }
+    #beginning_image {
+        overflow: hidden;
+        border-radius: 10px;
+        background-color: #000;
+        /* height: 100%; */
+        width: auto;
+        /* max-width: 50vw; */
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    #beginning_para p {
+        font-size: 17px;
+        line-height: 27px;
+        text-align: center;
+        /* margin-right: 40px; */
+    }
+    #slide_main #wrap_session {
+        display: flex;
+        justify-content: space-around;
+    }
+    #slide_main #wrap_session button {
+        width: 150px;
+        height: 150px;
+    }
+    #slide2 #slide2_conclution {
+        margin: 60px 40px;
+        text-align: center;
+    }
+    #slide2 #conclution {
+        margin-bottom: 20px;
+        font-size: 16px;
+        line-height: 19px;
+    }
+    #team_title {
+        font-weight: 900;
+        letter-spacing: -3px;
+        font-size: 33px;
+    }
+    #team_title {
+        height: 126px;
+        margin-bottom: 14px;
+        text-align: center;
+    }
+    #slide2 #quote {
+        height: 25px;
+        font-size: 12px;
+        padding-top: 30px;
+    }
+    #team {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .team_box {
+        width: auto;
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-bottom: 30px;
+    }
+    .team_box img {
+        width: 50vw;
+        background: #fff;
+        border-radius: 5px;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .wrap_input {
+        position: relative;
+        padding: 0px 0;
+    }
+    #contact .input_contact {
+        height: 43px;
+        width: 100%;
+        border-radius: 5px;
+        border: 1px solid #000;
+    }
+    .check_button {
+        display: flex;
+        height: 59px;
+    }
+    .check_button input {
+        height: 17px;
+        width: 25px;
+        margin: 19px 0;
+    }
+    .check_button p {
+        line-height: 25px;
+        height: 25px;
+        position: relative;
+        right: -20px;
+        top: 17px;
+        font-size: 17px;
+    }
+    .check_button {
+        display: flex;
+        height: auto;
+    }
+    #contact .contact_button {
+        width: 70%;
+        height: 52px;
+        color: #fff;
+        background-color: #000;
+        font-weight: 900;
+        font-size: 28px;
+        border-radius: 5px;
+        line-height: 0px;
+        margin-top: 29px;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    #email h1 {
+        margin: 0 25px 15px 25px;
+        font-size: 40px;
+    }
+    #email p {
+        margin-left: 25px;
+        font-size: 16px;
+    }
+    #footer #social_media {
+        display: flex;
+        justify-content: center;
+        height: 60px;
+        line-height: 60px;
+        border-bottom: 1px solid rgb(155, 153, 153);
+    }
+    #footer a {
+        text-decoration: none;
+        color: #fff;
+        padding-right: 10px;
+        padding-left: 10px;
+        font-size: 14px;
+        font-weight: 600;
+        letter-spacing: 0px;
+    }
+    #footer #wrap_footer {
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    #footer #sub_footer {
+        display: flex;
+        justify-content: center;
+        height: 60px;
+        line-height: 60px;
+        border-bottom: 1px solid rgb(155, 153, 153);
+    }
+    #end_footer #content1 {
+        margin-top: 18px;
+        height: 122px;
+        font-size: 10px;
+    }
+    #end_footer #content2 {
+        position: absolute;
+        left: 0;
+        bottom: 9px;
+        font-size: 9px;
+    }
+    #end_footer #content1 {
+        margin-top: 18px;
+        height: 90px;
+        font-size: 10px;
+    }
+    #contact {
+        text-align: center;
+    }
+    /* SIDEBAR*/
+    #header #nav_icon {
+        padding: 0;
+        display: inline-block;
+        height: 45px;
+        width: 45px;
+        font-size: 24px;
+        line-height: 50px;
+        height: 50px;
+        width: 27px;
+        color: #fff;
+        transform: rotate(180deg);
+        /*
+        #header #nav_icon {
+        display: none;
+        font-size: 24px;
+        line-height: 50px;
+        height: 50px;
+        width: 27px;
+        color: #fff;
+        transform: rotate(180deg);
+    }
+        */
+    }
+    #overlay {
+        display: none;
+        width: 50%;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+    #sidebar {
+        width: 50vw;
+        height: 100vh;
+        background-color: #fff;
+    }
+    #wrap_sidebar {
+        z-index: 2;
+        display: flex;
+        width: 100vw;
+        height: 100vh;
+    }
+    #wrap_sidebar #sidebar {
+        transform: translateX(200%);
+        transition: transform 1s linear;
+    }
+    #nav_checkbox:checked~#icon>#nav_icon {
+        display: none;
+    }
+    #nav_checkbox:checked~#wrap_sidebar>#overlay {
+        display: block;
+    }
+    #nav_checkbox:checked~#wrap_sidebar>#sidebar {
+        transform: translateX(0px);
+        transition: transform 1s linear;
+    }
+    #nav_checkbox:checked~#wrap_sidebar {
+        animation: opacity 0.8s linear;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+    @keyframes opacity {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+    /*ICON LOG OUT*/
+    #overlay {
+        position: relative;
+    }
+    #overlay .ti-control-forward {
+        position: absolute;
+        top: 50%;
+        right: 30px;
+        display: none;
+        font-size: 40px;
+    }
+    #nav_checkbox:checked~#wrap_sidebar>#overlay>.ti-control-forward {
+        display: block;
+        color: #fff;
+        animation: 1s log_out 2s linear infinite;
+    }
+    #nav_checkbox:checked~#wrap_sidebar {
+        position: fixed;
+    }
+    @keyframes log_out {
+        0% {
+            transform: translateX(-15px);
+        }
+    }
+    /* SIDEBAR_ANIMATION */
+    #sidebar {
+        /* background-size: 400% 400%; */
+        background-color: rgb(52, 111, 219);
+        /* animation: sidebar 7s linear infinite; */
+    }
+    #sidebar #facebook:hover {
+        transform: scale(1.5);
+        transition-duration: .5s;
+    }
+    #contact {
+        text-align: center;
+    }
+}
+
+
+/* Dành cho máy tính bảng */
+
+@media all and (max-width: 64em) and (min-width:45.0625em) {
+    #header #left_nav li,
+    #header #right_nav li {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    #banner #title h1 {
+        font-size: 60px;
+        line-height: 50px;
+    }
+    #slide_main #wrap_session {
+        display: flex;
+        justify-content: space-around;
+    }
+    #slide_main #wrap_session button {
+        width: 180px;
+        height: 180px;
+    }
+    #slide2 #conclution {
+        height: 117.3px;
+        margin-bottom: 16px;
+        font-size: 18px;
+        line-height: 20px;
+    }
+    #slide2 #slide2_conclution {
+        margin: 115px 125.6px;
+        text-align: center;
+    }
+    .team_box .team_name {
+        text-align: center;
+        height: 88px;
+        margin-bottom: 20px;
+        margin-top: 40px;
+        font-size: 25px;
+        font-weight: 900;
+        letter-spacing: -3px;
+    }
+    .team_box .about_team {
+        text-align: left;
+        /* margin-left: 40px; */
+        /* margin-right: 40px; */
+        /* letter-spacing: -1px; */
+        font-size: 17px;
+    }
+    #contact .input_contact {
+        height: 55px;
+        width: 100%;
+        border-radius: 5px;
+        border: 1px solid #000;
+    }
+    .wrap_input {
+        position: relative;
+        padding: 0px 0;
+    }
+    #slide2 #slide2_conclution {
+        margin: 128px 40.6px;
+        text-align: center;
+    }
+    #slide2 #conclution {
+        /* height: 117.3px; */
+        margin-bottom: 20px;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    #slide2 #quote {
+        height: 25px;
+        font-size: 12px;
+        padding-top: 50px;
+    }
+    #contact {
+        text-align: center;
+    }
+}
