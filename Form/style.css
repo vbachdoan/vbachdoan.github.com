@@ -96,12 +96,12 @@ body{
     margin-top: 10px;
     font-weight: 400;
 }
-.form-control{
+.my-form-control{
     border:none;
     border-bottom: 1px solid #000;
     border-radius: 0px;
 }
-.form-control:focus {
+.my-form-control:focus {
     color: #212529;
     background-color: #fff;
     border: none;
@@ -109,11 +109,11 @@ body{
     box-shadow: none;
     border-bottom: 1px solid #000;
 }
-.form-floating{
+.my-form-floating{
     height:45px;
     margin-bottom: 30px;
 }
-.form-floating>label {
+.my-form-floating>label {
     position: absolute;
     top: 0;
     left: 0;
@@ -129,7 +129,7 @@ body{
     align-items: center;
     font-size: 14px;
 }
-.form-floating>.form-control, .form-floating>.form-select {
+.my-form-floating>.form-control, .my-form-floating>.form-select {
     height: 45px;
     line-height: 45px;
 }
