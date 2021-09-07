@@ -12,12 +12,13 @@
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
     <link rel="shortcut icon" href="./image/logo-main.png" type="image/png" sizes="16x16">
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./responsive.css">
 </head>
 
 <body>
 
     <div id="wrap_body">
-        <h1>vuong dep trai</h1>
+        <!-- <h1>vuong dep trai</h1> -->
         <!-- slide1 -->
         <div id="slide1">
             <!-- Swiper -->
@@ -155,7 +156,7 @@
                     <div class="slide3_content">
                         <p class="slide3_name_card">Campaign</p>
                         <p class="slide3_level">LOGO LEVEL 1</p>
-                        <p class="card2_explain">MV Agusta teams up with KALEYDOSCOPE to present "Metafisica Veloce"</p>
+                        <div class="card2_explain"><p>MV Agusta teams up with KALEYDOSCOPE to present "Metafisica Veloce"</p></div>
                     </div>
                 </div>
             </div>
@@ -223,30 +224,26 @@
 
     <!-- Swiper JS -->
 
-    <!-- Initialize Swiper -->
+    <!-- Initialize Swiper 1 -->
     <script>
-        /**
-         * Initialize swiper
-         */
         var swiper1 = new Swiper(".swiper1", {
-            slidesPerView: 3,
-            autoplay: {
+        slidesPerView: 'auto',
+        autoplay: {
             delay: 2500,
             disableOnInteraction: false
-            },
-            spaceBetween: 10,
-            pagination: {
-                el: ".swiper-pagination",
-                clickable: true,
-            },
-        });
-
+        },
+        spaceBetween: 10,
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+    });
     </script>
 
     <script>
 
         var swiper2 = new Swiper(".swiper2", {
-            slidesPerView: 4,
+            slidesPerView: 'auto',
             spaceBetween: 10,
             pagination: {
                 el: ".swiper-pagination",
