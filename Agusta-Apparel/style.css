@@ -34,7 +34,7 @@ body{
     padding-bottom: 150px;
 }
 .swiper-slide{
-    background-color: #f1f1f1;
+    background-color: #e2e2e2;
     border-radius: 3px;
     position: relative;
     cursor: pointer;
@@ -313,6 +313,7 @@ body{
 }
 #slide4 .swiper-slide{
     width: calc( ( 100% - 30px )/4);
+    background-color: #e2e2e2;
 }
 #slide4 img{
     width: 100%;
