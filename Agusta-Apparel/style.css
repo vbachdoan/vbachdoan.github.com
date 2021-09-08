@@ -7,7 +7,6 @@ body{
     overflow-x: visible;
 }
 #wrap_body{
-    width: 100vw;
     min-width: 320px;
 }
 /**
