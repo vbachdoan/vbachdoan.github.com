@@ -538,7 +538,7 @@ body{
 #slider2_navigation div:nth-child(1):before{
     content: '';
     position: absolute;
-    top:36px;
+    top:35.5px;
     left:0;
     background-color: #000;
     width: 0px;
@@ -549,11 +549,11 @@ body{
 #slider2_navigation div:nth-child(1):hover::before{
     width: inherit;
 }
-#slider2_navigation div:nth-child(2):before{
+#slider2_navigation div:nth-child(2):before {
     content: '';
     position: absolute;
-    top:36px;
-    left:0;
+    top: 35.5px;
+    left: 0;
     background-color: #000;
     width: 0px;
     height: 2.5px;
@@ -566,7 +566,7 @@ body{
 #slider2_navigation div:nth-child(3):before{
     content: '';
     position: absolute;
-    top:36px;
+    top:35.5px;
     left:0;
     background-color: #000;
     width: 0px;
