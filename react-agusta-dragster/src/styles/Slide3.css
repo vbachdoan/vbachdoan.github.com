@@ -1,0 +1,28 @@
+/**
+ * begin slide 3
+ */
+ #slide3 {
+    position: relative;
+    color: #fff;
+    width: 100%;
+    margin-bottom: 135px;
+    min-width: 320px;
+}
+#wrap_title_slide3 {
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    font-family: 'Anton', sans-serif;
+    font-size: 38px;
+    letter-spacing: 3.3px;
+    line-height: 20px;
+}
+#slide3_para{
+    position: absolute;
+    bottom: 20px;
+    left:30px;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    width:37%;
+    line-height: 26px;
+}

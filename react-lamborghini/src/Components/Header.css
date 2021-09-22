@@ -1,0 +1,39 @@
+#header{
+    height:64px;
+    padding: 16px 60px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #202020;
+}
+#left-nav {
+    display: flex;
+}
+#left-nav a{
+    text-decoration: none;
+    color:#fff;
+    margin-right: 26px;
+    line-height: 64px;
+    font-size: 1rem;
+}
+#header-logo{
+    height:100%;
+    margin-right: 52px;
+}
+#right-nav{
+    display: flex;
+}
+#right-nav-icons,
+#right-nav-links{
+    display: flex;
+    align-items:center;
+}
+#right-nav-links p{
+    margin-right: 26px;
+    color:#fff;
+    font-size: 1rem;
+}
+#right-nav-icons svg{
+    height: 25px;
+    width:35px;
+    margin-left: 26px;
+}

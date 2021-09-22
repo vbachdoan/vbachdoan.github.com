@@ -1,0 +1,45 @@
+
+/**
+ * begin slide 4
+ */
+ #slide4{
+    width: 100%;
+    min-width: 320px;
+}
+#wrap_slide4{
+    /* margin-left: 10px;
+    margin-right: 10px; */
+    display: flex;
+}
+#slide4_content{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+#slide4_image{
+    width: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+}
+#slide4_imgTag{
+    width: 100%;
+    height: auto;
+}
+#wrap_slide4_title {
+    font-size: 38px;
+    font-family: 'Anton', sans-serif;
+    line-height: 20px;
+    letter-spacing: 3.3px;
+}
+#slide4_para {
+    margin-top: 0px;
+    line-height: 26px;
+    font-size: 18px;
+    width: 75%;
+    padding-bottom: 65px;
+}

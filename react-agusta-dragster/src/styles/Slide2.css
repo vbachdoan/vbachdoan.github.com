@@ -1,0 +1,102 @@
+/* begin slide 2 */
+#slide2{
+    margin-bottom: 135px;
+}
+#wrap_card{
+    display: grid;
+    grid-template-columns: auto auto auto;    
+    grid-gap: 10px 10px;
+}
+#wrap_card .card{
+    overflow: hidden;
+    background-color: #fff;
+    border-radius: 5px;
+    position: relative;
+}
+.card img {
+    transform: translateX(-50%);
+    width: 180%;
+}
+.card_name {
+    font-size: 45px;
+    font-family: 'Anton', sans-serif;
+    position: absolute;
+    left: 25px;
+    padding-top: 20px;
+    z-index: 2;
+    color: #000;
+    transition: .25s ease-in-out;
+    margin:0px;
+}
+.card::after{
+    position: absolute;
+    width:100%;
+    height:100%;
+    content: '';
+    z-index: 1;
+    top:0;
+    left:0;
+    background-color: #000;
+    opacity: 0;
+    transition: 0.2s ease-in-out;
+}
+.card:hover::after{
+    opacity: 0.8;
+}
+.card:hover .card_name{
+    color:#fff;
+}
+.card_btn{
+    position: absolute;
+    width: auto;
+    border:1.5px solid #fff;
+    color:#fff;
+    font-size: 20px;
+    z-index: 2;
+    line-height: 30px;
+    padding: 15px 15px;
+    left: 50%;
+    top: 45%;
+    transform: translate(-50%);
+    opacity: 0;
+    transition: .2s ease-in-out;
+    font-weight: 600;
+}
+.card:hover .card_btn{
+    opacity: 1;
+}
+.card_btn:hover{
+    cursor: pointer;
+    background-color: #fff;
+    color:#000;
+}
+/* css for information of card */
+.wrap_information{
+    display: flex;
+}
+.number {
+    position: relative;
+    width: min-content;
+    font-family: 'Anton', sans-serif;
+    font-size: 29px;
+    line-height: 45px;
+    padding-right: 5px;
+}
+.number h2{
+    margin: 0px;
+}
+.sub_number {
+    position: absolute;
+    top: 0px;
+    left: 100%;
+    font-family: 'Anton', sans-serif;
+    font-size: 14px;
+    margin: 0px;
+    line-height: initial;
+}
+.block_information{
+    margin: 0px 3.8% 20px 20px;
+}
+.information{
+    margin:0px
+}

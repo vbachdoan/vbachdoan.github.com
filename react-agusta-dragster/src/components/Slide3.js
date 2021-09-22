@@ -1,0 +1,25 @@
+import React from 'react'
+
+import '../styles/Slide3.css'
+
+const Slide3 = () => {
+    return (
+        <div id="slide3">
+            <div id="wrap_slide3">
+                <div id="wrap_title_slide3">
+                    <h2 id="slide3_title">CONCEPT OF</h2>
+                    <h2 id="slide3_subtitle">DRAGSTER</h2>
+                </div>
+                <img src="./Image/slide3_bigSize.webp" alt="Riding Dragster" id="slide3_image" loading="lazy" />
+                <p id="slide3_para">
+                    The Dragster is MV Agusta’s most impudent, irreverent model. It has that wild, untamed allure that instantly bewitches any bike lover and makes it a lifestyle statement in its own right.
+                    <br />
+                    <br />
+                    The bobbed tail, the spoke wheels, the compact yet balanced volumes and weights distributed over the refined chassis are a vivid reminiscence of those epic drag races, interpreted in the most modern and compelling way.
+                </p>
+            </div>
+        </div>
+    )
+}
+
+export default Slide3

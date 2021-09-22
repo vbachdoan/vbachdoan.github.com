@@ -1,0 +1,39 @@
+/* begin banner */
+#banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10.6px;
+    min-height: 664px;
+    width:100%;
+    position: relative;
+    background: radial-gradient(82.29% 82.29% at 50% 98.05%,#960014 0%,#AE0000 100%);
+    overflow: hidden;
+}
+#banner_image{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    margin-bottom: -5px;
+    min-width: 1180px;
+}
+#banner_content {
+    position: absolute;
+    top: calc(100%*0.23);
+    left: 50%;
+    width: 100%;
+    transform: translateX(-50%);
+    text-align: center;
+    font-size: calc(100%*2);
+    color: #fff;
+}
+#banner_title {
+    width: 446px;
+    height:22px;
+    max-width: 780px;
+    min-width: 350px;
+}
+#banner_explain{
+    font-size: 18px;
+    padding-top: 25px;
+}
