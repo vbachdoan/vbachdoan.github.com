@@ -9,7 +9,7 @@ const Slide1 = () => {
                 <h2 id="slide1_title">BEAUTY IN THE <br />BEAST</h2>
                 <h2 id="slide1_title_replace">BEAUTY IN THE BEAST</h2>
                 <picture id="slide1_source_image">
-                    <source media="(min-width: 766px)" srcset="./Image/slide1_image1.webp" />
+                    <source media="(min-width: 766px)" srcSet="./Image/slide1_image1.webp" />
                     <img src="./Image/slide1_image1_smallSize.webp" alt="Dragster model" loading="lazy" />
                 </picture>
                 <div id="wrap_slide1_para">

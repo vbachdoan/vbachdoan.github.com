@@ -26,3 +26,11 @@
     width:37%;
     line-height: 26px;
 }
+#slide3_image img{
+    width: 100%;
+    min-height: 690px;
+    object-fit: cover;
+}
+#slide3_image source{
+    height:760px;
+}

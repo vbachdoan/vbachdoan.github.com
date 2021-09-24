@@ -41,4 +41,5 @@
   padding-right: 10px;
   box-sizing: border-box;
   overflow: hidden;
+  min-width: 320px;
 }
