@@ -13,7 +13,7 @@ const Slide3 = () => {
                 <picture id="slide3_image">
                     <source srcSet="./Image/slide3_tabletSize.webp"
                         media="(max-width: 575px)" />
-                    <img src="./Image/slide3_bigSize.webp" alt="Agusta motor" />
+                    <img src="./Image/slide3_bigSize.webp" />
                 </picture>
                 <p id="slide3_para">
                     The Dragster is MV Agusta’s most impudent, irreverent model. It has that wild, untamed allure that instantly bewitches any bike lover and makes it a lifestyle statement in its own right.

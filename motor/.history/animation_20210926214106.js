@@ -75,3 +75,4 @@ document.getElementById('slide2').style.transitionDuration = '1s';
 document.getElementById('slide3').style.transitionDuration = '1s';
 document.getElementById('slide4').style.transitionDuration = '1s';
 document.getElementById('slide5').style.transitionDuration = '1s';
+
