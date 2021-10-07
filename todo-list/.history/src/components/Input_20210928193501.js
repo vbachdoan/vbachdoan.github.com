@@ -30,7 +30,7 @@ export default class Input extends React.Component {
 
         axios({
             method: 'POST',
-            url: 'localhost:8080',
+            url: '/upload',
             headers: {
                 authorization: "Your token"
             },
@@ -45,6 +45,10 @@ export default class Input extends React.Component {
     render() {
         return (
             <>
+                <div id='wrap-input'>
+                    <input id="input" type='text' value={this.state.toDoItem} onChange={(event) => { this.setState({ toDoItem: event.target.value }) }}></input>
+                </div>
+                <button id='add-button' onClick={this.handleClick}>Add</button>
                 <ul id='todo-Item'>
                     {this.state.listToDoItem.map((item, index) => <li key={index}>{item}</li>)}
                 </ul>

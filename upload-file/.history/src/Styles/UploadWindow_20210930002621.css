@@ -1,0 +1,15 @@
+#wrap-upload{
+    background-color: #ccc;
+    width: 700px;
+    height:220px;
+    margin: 100px auto;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+}
+#input{
+    display: none;
+}
+#input-label{
+    margin-top: 50px;
+}

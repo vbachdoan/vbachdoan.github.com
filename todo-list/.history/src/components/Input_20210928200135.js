@@ -30,7 +30,7 @@ export default class Input extends React.Component {
 
         axios({
             method: 'POST',
-            url: 'localhost:8080',
+            url: '/upload',
             headers: {
                 authorization: "Your token"
             },
