@@ -1,0 +1,28 @@
+#wrap-header{
+    margin: 15px 15px;
+    display: flex;
+    justify-content: space-between;
+    height:54px;
+}
+#wrap-header a{
+    text-decoration: none;
+    color:#000;
+    display: block;
+    float: left;
+}
+#left-navigationn{
+    margin-left: 15px;
+}
+#right-navigatin{
+}
+#left-navigation a{
+    margin-right: 30px;
+    line-height: 54px;
+}
+#right-navigation a{
+    margin-left: 30px;
+    line-height: 54px;
+}
+#homepage__logo{
+    height:54px;
+}

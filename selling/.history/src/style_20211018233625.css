@@ -1,0 +1,23 @@
+#wrap-header{
+    margin: 15px 15px;
+    display: flex;
+    justify-content: space-between;
+    height:54px;
+}
+#wrap-header a{
+    text-decoration: none;
+    color:#000;
+}
+#left-navigation a{
+    margin-right: 30px;
+    display: flex;
+    ju
+}
+#right-navigation a{
+    margin-left: 30px;
+    display: flex;
+    ju
+}
+#homepage__logo{
+    height:54px;
+}

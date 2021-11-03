@@ -1,0 +1,20 @@
+import React from 'react'
+
+export default class Banner extends React.Component{
+    render(){
+        return(
+            <>
+                <div id="wrap-banner">
+                    <div id="banner-form-contact">
+                        <h1 class="title__important" id="banner__form__">ABOUT ME</h1>
+                        <p class="__para">
+                            I'm Front-End developer,<br/>
+                            Contact me everywhen if you need for help.
+                        </p>
+                        <div class="button__lg">Ask for help</div>
+                    </div>
+                </div>
+            </>
+        )
+    }
+}

@@ -2,7 +2,7 @@ import React from 'react'
 
 function Slide2Card(props) {
     return (
-        <div className="card">
+        <div className="card" key={this.props.key}>
             <h2 className="card_name">{props.cardName}</h2>
             <img src={props.srcImg} alt={`${props.cardName} model`} loading="lazy" />
             {/* <!-- providing information for card --> */}

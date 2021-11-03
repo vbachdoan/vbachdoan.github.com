@@ -42,6 +42,7 @@ export default class Slide2 extends React.Component {
                                         cardName={property.cardName}
                                         srcImg={property.srcImg}
                                         information={property.information}
+                                        key={key}
                                     />
                                 </>
                             )
